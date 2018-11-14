@@ -1,0 +1,20 @@
+.padding-left{
+	padding-top: 20px;
+	padding-left: 20px;
+	/*
+	padding: a b c d
+	上 右 下 左
+
+	padding: x y;
+	上下边距 左右边距
+
+	padding: z;
+	所有边距
+	*/
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	background: red;
+}
