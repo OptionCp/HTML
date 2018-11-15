@@ -18,3 +18,25 @@
 	height: 100px;
 	background: red;
 }
+
+div{
+	width: 200px;
+	height: 200px;
+	border: 10px solid yellow;
+}
+
+.item1{
+	background: green;
+	/*item底部外间距*/
+	/*margin-bottom: 20px;*/
+
+}
+
+.item2{
+	background: red;
+	margin-top: -10px;
+	/*
+	margin: a b c d
+	top right bottom left
+	*/
+}
