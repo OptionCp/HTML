@@ -4,15 +4,34 @@
 	background: black;
 	border: 10px solid red;
 	padding: 20px;
-	margin: 20px;
+	/*margin: 20px;*/
 }
 
-.box2,.box3{
+.box2,.box3,.box4{
 	width: 100px;
 	height: 100px;
 	background: green;
+
+}
+
+.box3{
 	padding: 20px;
 
 	/*改变元素距离内容的间距，不想改变元素的大小*/
 	box-sizing: border-box;
+}
+
+.box4{
+	padding: 20px;
+	border: 20px solid red;
+	/*边框不影响实际大小*/
+	box-sizing: border-box;
+}
+
+span{
+	width: 100px;
+	height: 100px;
+	background: pink;
+	/*内联元素转换成块级元素*/
+	display: block;
 }
