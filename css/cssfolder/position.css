@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box1{
+	width: 200px;
+	height: 200px;
+	background: red;
+	/*通过position设置定位*/
+	/*相对定位*/
+	/*以本身位置作为参考点，不会脱离文档流*/
+	position: relative;
+	left: 100px;
+	top: 100px;
+}
+
+.box2{
+	width: 200px;
+	height: 200px;
+	background: green;
+	/*
+	设置绝对定位
+	会脱离文档流
+	以有定位属性的父级作为参考点进行偏移，如果父级元素没有定位属性继续往上一级元素找，直到body
+	*/
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
+.box3{
+	width: 200px;
+	height: 200px;
+	background: red;
+}
+
+.wrap{
+	width: 500px;
+	height: 500px;
+	border: 1px solid red;
+}

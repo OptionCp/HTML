@@ -1,16 +1,15 @@
 div{
 	width: 200px;
-	height: 200px;
 }
 
 .box1{
 	background: yellow;
-	float: left;
+	/*float: left;*/
 }
 
 .box2{
 	background: red;
-	float: right;
+	/*float: right;*/
 }
 
 .box3{
@@ -20,5 +19,39 @@ div{
 
 .box4{
 	background: blue;
+	/*float: left;*/
+}
+
+.wrap{
+	width: 500px;
+	border: 1px solid red;
+	overflow: hidden;
+}
+
+.item1{
+	width: 100px;
+	height: 100px;
+	background: #369;
+	float: left;
+}
+
+.item2{
+	width: 100px;
+	height: 100px;
+	background: #123;
+	float: left;
+}
+
+.item3{
+	width: 200px;
+	height: 100px;
+	float: left;
+	background: gray;
+}
+
+.item4{
+	width: 200px;
+	height: 100px;
+	background: red;
 	float: left;
 }

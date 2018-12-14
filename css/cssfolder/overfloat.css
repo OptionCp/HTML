@@ -1,0 +1,53 @@
+div{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.wrap{
+	border: 1px solid red;
+	/*清除浮动*/
+	/*overflow:hidden;*/
+}
+
+.wrap:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.box1{
+	background: #222;
+}
+
+.box2{
+	background: #909;
+}
+
+
+.box3{
+	background: #090;
+}
+
+
+.box4{
+	background: #034;
+	/*清除左右两边的浮动*/
+	clear: both;
+	/*清除左浮动*/
+	/*clear: left;*/
+}
+
+
+.box5{
+	background: #572;
+}
+
+
+.box6{
+	background: #834;
+}
+
+.box7{
+	background: #295;
+}
