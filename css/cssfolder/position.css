@@ -6,7 +6,7 @@
 .box1{
 	width: 200px;
 	height: 200px;
-	background: red;
+	background: yellow;
 	/*通过position设置定位*/
 	/*相对定位*/
 	/*以本身位置作为参考点，不会脱离文档流*/
@@ -35,8 +35,19 @@
 	background: red;
 }
 
+.box4{
+	width: 80px;
+	height: 80px;
+	background: green;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+
+}
+
 .wrap{
 	width: 500px;
 	height: 500px;
 	border: 1px solid red;
+	position: relative;
 }
