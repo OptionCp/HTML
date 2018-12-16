@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>html5 update</title>
+</head>
+<body>
+	<!-- datalist -->
+	<datalist id="list">
+		<option>test1</option>
+		<option>test2</option>
+	</datalist>
+
+	<input type="text" name="list" list="list">
+	
+	<!-- progress -->
+	<progress></progress>>
+	<br>
+	<progress value="0" id="pro"></progress>
+	<!-- <script type="text/javascript">
+		var pro = document.getElementById("pro");
+		var v = 0;
+		var timer = setInterval(function(){
+			v += 0.02;
+			pro.value = v;
+			if (v > 0.9) {
+				clearInterval(timer)
+			}
+		},200);
+	</script> -->
+
+	<!-- meter -->
+	<meter min="2000" max="20000" low="4000" high="20000" optimum="12000" value="12000" id="met"></meter>
+	<script type="text/javascript">
+		var val = document.getElementById("met");
+		var v = 0;
+		var timer = setInterval(function(){
+			v += 300;
+			val.value = v;
+			if (v > 19998) {
+				clearInterval(timer);
+			}
+		},200);
+	</script>
+</body>
+</html>
